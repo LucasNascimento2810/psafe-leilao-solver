@@ -77,7 +77,7 @@ ${formData.message}
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-6 bg-card border border-border rounded-lg p-8 shadow-lg">
+          <form onSubmit={handleSubmit} className="space-y-6 bg-card border border-border rounded-lg p-8 shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <Label htmlFor="name">Nome completo *</Label>

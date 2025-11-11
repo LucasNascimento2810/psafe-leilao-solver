@@ -1,13 +1,21 @@
 import { Card } from "@/components/ui/card";
 import { Award, Users, TrendingUp } from "lucide-react";
 import lawyerImage from "@/assets/lawyer-hero.jpg";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const About = () => {
+  const { ref, isVisible } = useScrollAnimation(0.1);
+
   return (
     <section className="py-20 bg-background">
       <div className="container px-4 mx-auto">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div 
+            ref={ref}
+            className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transition-all duration-1000 ${
+              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
+            }`}
+          >
             {/* Image */}
             <div className="relative">
               <div className="relative rounded-lg overflow-hidden shadow-2xl">

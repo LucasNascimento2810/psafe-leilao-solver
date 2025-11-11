@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FileText, Search, Gavel } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const steps = [
   {
@@ -23,6 +24,8 @@ const steps = [
 ];
 
 const Process = () => {
+  const { ref, isVisible } = useScrollAnimation(0.1);
+  
   const whatsappNumber = "5511999999999";
   const whatsappMessage = encodeURIComponent("Olá! Gostaria de entender melhor o processo de suspensão de leilão.");
   
@@ -40,7 +43,12 @@ const Process = () => {
           <div className="w-20 h-1 bg-accent mx-auto" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
+        <div 
+          ref={ref}
+          className={`grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12 transition-all duration-1000 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
