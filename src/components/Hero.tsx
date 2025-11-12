@@ -17,12 +17,13 @@ const Hero = () => {
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'contain',
-          backgroundPosition: 'center 20%',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 35%',
           backgroundRepeat: 'no-repeat',
+          backgroundColor: '#1a2332',
         }}
       >
-        <div className="absolute inset-0 bg-primary/85" />
+        <div className="absolute inset-0 bg-primary/80" />
       </div>
 
       {/* Content */}
