@@ -18,7 +18,8 @@ const Hero = () => {
         style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center top',
+          backgroundRepeat: 'no-repeat',
         }}
       >
         <div className="absolute inset-0 bg-primary/85" />
