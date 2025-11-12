@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/lawyer-hero.jpg";
 
 const Hero = () => {
-  const whatsappNumber = "5511999999999"; // Replace with actual number
+  const whatsappNumber = "5561986994700";
   const whatsappMessage = encodeURIComponent("Olá! Gostaria de falar sobre suspensão/anulação de leilão.");
   
   const handleWhatsAppClick = () => {

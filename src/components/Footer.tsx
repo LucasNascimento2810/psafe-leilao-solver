@@ -20,11 +20,11 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <div className="space-y-3">
               <a 
-                href="tel:+5511999999999" 
+                href="tel:+556198699470" 
                 className="flex items-center gap-3 text-white/80 hover:text-accent transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>(11) 99999-9999</span>
+                <span>(61) 98699-9470</span>
               </a>
               <a 
                 href="mailto:contato@psafeadvocacia.com.br" 
