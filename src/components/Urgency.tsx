@@ -5,7 +5,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const Urgency = () => {
   const { ref, isVisible } = useScrollAnimation(0.2);
 
-  const whatsappNumber = "5511999999999";
+  const whatsappNumber = "556198699470";
   const whatsappMessage = encodeURIComponent("🚨 URGENTE! Preciso de ajuda imediata com leilão.");
   
   const handleWhatsAppClick = () => {

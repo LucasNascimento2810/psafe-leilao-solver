@@ -26,7 +26,7 @@ const steps = [
 const Process = () => {
   const { ref, isVisible } = useScrollAnimation(0.1);
   
-  const whatsappNumber = "5561986994700";
+  const whatsappNumber = "556198699470";
   const whatsappMessage = encodeURIComponent("Olá! Gostaria de entender melhor o processo de suspensão de leilão.");
   
   const handleWhatsAppClick = () => {
