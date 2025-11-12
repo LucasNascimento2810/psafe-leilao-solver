@@ -18,7 +18,7 @@ const Hero = () => {
         style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center 50%',
+          backgroundPosition: 'center 35%',
           backgroundRepeat: 'no-repeat',
           backgroundColor: '#1a2332',
         }}
