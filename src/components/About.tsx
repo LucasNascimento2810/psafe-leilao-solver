@@ -34,7 +34,7 @@ const About = () => {
                     <Award className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-primary">+10 anos</div>
+                    <div className="text-2xl font-bold text-primary">+19 anos</div>
                     <div className="text-sm text-muted-foreground">de experiência</div>
                   </div>
                 </div>
@@ -45,17 +45,21 @@ const About = () => {
             <div className="space-y-6">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                  Sobre a PSafe Advocacia
+                  Recupere o que é seu!
                 </h2>
                 <div className="w-20 h-1 bg-accent mb-6" />
               </div>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                A <span className="font-semibold text-foreground">PSafe Advocacia</span> atua com foco em soluções jurídicas rápidas e seguras para proteger o patrimônio dos clientes em situações de leilões judiciais e extrajudiciais.
+                Se o seu imóvel está prestes a ir a leilão — ou já foi arrematado — ainda há caminhos legais para reverter essa situação. A perda do patrimônio familiar é uma das experiências mais difíceis, mas com a estratégia certa, é possível proteger seus direitos e reaver o bem.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Nossa equipe possui ampla experiência na identificação de irregularidades processuais e na elaboração de estratégias eficazes para suspensão e anulação de leilões, sempre priorizando o melhor resultado para nossos clientes.
+                Na <span className="font-semibold text-foreground">PSafe Advogados</span>, atuamos com foco em soluções jurídicas eficazes para suspender/cancelar leilões e recuperar imóveis. Nossa equipe possui ampla experiência em procedimentos judiciais e extrajudiciais, dominando as particularidades que envolvem financiamentos, notificações e execuções.
+              </p>
+
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Com atuação técnica e comprometimento real com cada caso, buscamos sempre o melhor resultado para você e sua família. Seu patrimônio pode ser salvo — e nós sabemos como fazer isso acontecer.
               </p>
 
               {/* Mini Features */}

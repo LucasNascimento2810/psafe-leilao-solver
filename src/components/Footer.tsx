@@ -54,7 +54,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/60 text-sm">
-          <p>© {currentYear} PSafe Advocacia. Todos os direitos reservados.</p>
+          <p>® 2020 PSAFE | Todos os direitos reservados.</p>
+          <p className="mt-2">Política de Privacidade | Termos de Uso</p>
         </div>
       </div>
     </footer>

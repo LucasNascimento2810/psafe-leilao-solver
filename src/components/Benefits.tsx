@@ -5,23 +5,23 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const benefits = [
   {
     icon: Shield,
-    title: "Suspensão imediata de leilões irregulares",
-    description: "Identificamos irregularidades e agimos rapidamente para proteger seu patrimônio"
+    title: "Assessoria Especializada",
+    description: "Mais de 19 anos de experiência no mercado jurídico com expertise na recuperação de imóveis levados a leilão"
   },
   {
     icon: Scale,
-    title: "Atuação jurídica completa e personalizada",
-    description: "Análise detalhada do seu caso com estratégias jurídicas sob medida"
+    title: "Recuperação em qualquer fase",
+    description: "Estratégias jurídicas precisas para atuar antes ou depois do leilão, identificando falhas e irregularidades"
   },
   {
     icon: Clock,
-    title: "Atendimento rápido e humanizado",
-    description: "Respondemos em até 24h com toda atenção que seu caso merece"
+    title: "Atendimento Personalizado",
+    description: "Cada caso é tratado de forma exclusiva com análise detalhada e estratégia sob medida"
   },
   {
     icon: MapPin,
-    title: "Atuação nacional em casos de leilão",
-    description: "Presença em todo território brasileiro para defender seus direitos"
+    title: "Atendimento Online e Presencial",
+    description: "Atuação em todo o território nacional com sede em Brasília/DF e atendimento remoto"
   }
 ];
 

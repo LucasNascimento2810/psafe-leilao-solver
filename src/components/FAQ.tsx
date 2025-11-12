@@ -8,28 +8,28 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const faqs = [
   {
-    question: "Em quanto tempo é possível suspender um leilão?",
-    answer: "O tempo varia conforme a urgência e complexidade do caso. Em situações de iminência do leilão, podemos atuar em regime de urgência e obter liminares em 24 a 48 horas. Quanto antes você nos procurar, maiores as chances de sucesso."
+    question: "É possível recuperar um imóvel que já foi arrematado em leilão?",
+    answer: "Sim. Em diversos casos, é possível reverter a arrematação, especialmente quando são identificadas irregularidades no procedimento, ausência de notificação adequada, vícios contratuais ou abuso por parte da instituição financeira. Cada caso requer análise jurídica detalhada."
   },
   {
-    question: "Quais são os principais motivos para anular um leilão?",
-    answer: "Os motivos mais comuns incluem: vícios na notificação, erros no processo de execução, falta de avaliação atualizada do bem, irregularidades no edital, valores de lance muito abaixo do mercado, e ausência de tentativas de acordo antes do leilão."
+    question: "O que devo fazer ao receber uma notificação de leilão do meu imóvel?",
+    answer: "O ideal é procurar imediatamente um advogado especializado. O tempo é um fator determinante para suspender o leilão e preservar o imóvel. A atuação preventiva permite ingressar com medidas judiciais antes que a perda do bem se concretize."
   },
   {
-    question: "Preciso pagar algo antecipadamente?",
-    answer: "Trabalhamos com total transparência. Após a análise inicial gratuita do seu caso, apresentamos um orçamento claro com todas as condições. Cada caso é avaliado individualmente para definirmos a melhor estratégia e valores."
+    question: "Preciso estar em Brasília para ser atendido pelo escritório?",
+    answer: "Não. Apesar de nossa sede estar localizada em Brasília/DF, atendemos clientes em todo o Brasil por meio de atendimento online seguro e eficiente, garantindo o mesmo nível de acompanhamento e qualidade em qualquer estado."
   },
   {
-    question: "Vocês atuam em todo o Brasil?",
-    answer: "Sim! Nossa atuação é nacional. Temos experiência em processos em diversos estados brasileiros e utilizamos recursos tecnológicos que nos permitem atuar de forma ágil em qualquer região do país."
+    question: "O escritório cobra honorários antecipados?",
+    answer: "Oferecemos condições de pagamento facilitadas, analisadas conforme a realidade financeira de cada cliente. Em muitos casos, é possível negociar parcelamentos ou formas alternativas de pagamento."
   },
   {
-    question: "O que acontece depois que o leilão é suspenso?",
-    answer: "Após a suspensão, trabalhamos em estratégias para resolver a dívida de forma mais favorável, como negociação de valores, parcelamento, ou até mesmo a anulação definitiva do processo caso identifiquemos irregularidades graves."
+    question: "Quanto tempo leva o processo de recuperação do imóvel?",
+    answer: "O prazo varia conforme a complexidade do caso e o tipo de procedimento (judicial ou extrajudicial). Após a análise inicial, nossa equipe fornece uma estimativa realista baseada nas etapas processuais e no histórico de casos semelhantes."
   },
   {
-    question: "Qual a diferença entre suspensão e anulação de leilão?",
-    answer: "A suspensão é uma medida temporária que interrompe o leilão enquanto analisamos o caso. Já a anulação cancela definitivamente o leilão quando comprovamos irregularidades graves no processo. Nossa estratégia depende das particularidades de cada situação."
+    question: "O que diferencia o PSAFE de outros escritórios?",
+    answer: "Nossa experiência de mais de 19 anos de atuação jurídica, aliada à especialização em leilões judiciais e extrajudiciais, nos permite adotar estratégias personalizadas, com total transparência e comprometimento em cada caso, priorizando sempre a proteção do patrimônio do cliente."
   }
 ];
 

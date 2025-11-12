@@ -16,7 +16,7 @@ const stats = [
   },
   {
     icon: Award,
-    number: "+10",
+    number: "+19",
     label: "Anos de experiência",
     description: "em direito imobiliário"
   },

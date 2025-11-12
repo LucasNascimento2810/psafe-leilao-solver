@@ -30,11 +30,11 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20 mx-auto text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight animate-fade-in-up">
-            Evite prejuízos com leilões — atue antes que seja tarde.
+            Seu imóvel não precisa ir a leilão.
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 font-light max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Advogados especializados em suspensão e anulação de leilões judiciais e extrajudiciais.
+            Tome a frente e defenda o que é seu.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6 animate-scale-in" style={{ animationDelay: '0.4s' }}>
