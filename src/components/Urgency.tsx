@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { AlertCircle, MessageCircle } from "lucide-react";
+import { AlertCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import whatsappLogo from "@/assets/whatsapp-logo.png";
 
 const Urgency = () => {
   const { ref, isVisible } = useScrollAnimation(0.2);
@@ -45,7 +46,7 @@ const Urgency = () => {
               onClick={handleWhatsAppClick}
               className="bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white font-semibold px-8 py-6 shadow-lg hover:shadow-2xl transition-all hover:scale-105 animate-pulse"
             >
-              <MessageCircle className="mr-2 h-5 w-5 fill-white" />
+              <img src={whatsappLogo} alt="WhatsApp" className="mr-2 h-5 w-5" />
               Atendimento Urgente via WhatsApp
             </Button>
           </div>

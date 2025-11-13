@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { FileText, Search, Gavel, MessageCircle } from "lucide-react";
+import { FileText, Search, Gavel } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import whatsappLogo from "@/assets/whatsapp-logo.png";
 
 const steps = [
   {
@@ -86,7 +87,7 @@ const Process = () => {
             onClick={handleWhatsAppClick}
             className="bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white font-semibold px-8 py-6 shadow-lg hover:shadow-xl transition-all hover:scale-105"
           >
-            <MessageCircle className="mr-2 h-5 w-5 fill-white" />
+            <img src={whatsappLogo} alt="WhatsApp" className="mr-2 h-5 w-5" />
             Falar com advogado
           </Button>
         </div>

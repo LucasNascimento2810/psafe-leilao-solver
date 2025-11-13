@@ -1,5 +1,5 @@
-import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import whatsappLogo from "@/assets/whatsapp-logo.png";
 
 const FloatingWhatsApp = () => {
   const whatsappNumber = "556198699470";
@@ -20,7 +20,7 @@ const FloatingWhatsApp = () => {
         className="relative rounded-full w-16 h-16 shadow-2xl bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white hover:scale-110 transition-all duration-300"
         aria-label="Contato via WhatsApp"
       >
-        <MessageCircle className="h-7 w-7 fill-white" />
+        <img src={whatsappLogo} alt="WhatsApp" className="h-8 w-8" />
       </Button>
     </div>
   );

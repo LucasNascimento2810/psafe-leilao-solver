@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
 import lawyerImage from "@/assets/lawyer-professional.png";
 import logoPSafe from "@/assets/logo-psafe.png";
+import whatsappLogo from "@/assets/whatsapp-logo.png";
 
 const Hero = () => {
   const whatsappNumber = "556198699470";
@@ -68,7 +68,7 @@ const Hero = () => {
                 onClick={handleWhatsAppClick}
                 className="bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white font-semibold px-8 py-6 text-base md:text-lg rounded-md shadow-lg hover:shadow-2xl transition-all hover:scale-105 animate-pulse"
               >
-                <MessageCircle className="mr-2 h-6 w-6 fill-white" />
+                <img src={whatsappLogo} alt="WhatsApp" className="mr-2 h-6 w-6" />
                 Falar com um advogado agora
               </Button>
             </div>
