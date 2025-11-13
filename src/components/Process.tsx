@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { FileText, Search, Gavel } from "lucide-react";
+import { FileText, Search, Gavel, MessageCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const steps = [
@@ -84,8 +84,9 @@ const Process = () => {
           <Button 
             size="lg"
             onClick={handleWhatsAppClick}
-            className="bg-accent hover:bg-accent/90 text-white font-semibold px-8 py-6"
+            className="bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white font-semibold px-8 py-6 shadow-lg hover:shadow-xl transition-all hover:scale-105"
           >
+            <MessageCircle className="mr-2 h-5 w-5 fill-white" />
             Falar com advogado
           </Button>
         </div>

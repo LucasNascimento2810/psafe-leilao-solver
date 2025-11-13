@@ -66,9 +66,9 @@ const Hero = () => {
               <Button
                 size="lg"
                 onClick={handleWhatsAppClick}
-                className="bg-accent hover:bg-accent/90 text-white font-semibold px-8 py-6 text-base md:text-lg rounded-md shadow-lg hover:shadow-xl transition-all hover:scale-105"
+                className="bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white font-semibold px-8 py-6 text-base md:text-lg rounded-md shadow-lg hover:shadow-2xl transition-all hover:scale-105 animate-pulse"
               >
-                <MessageCircle className="mr-2 h-5 w-5" />
+                <MessageCircle className="mr-2 h-6 w-6 fill-white" />
                 Falar com um advogado agora
               </Button>
             </div>

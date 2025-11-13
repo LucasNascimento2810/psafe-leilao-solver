@@ -29,6 +29,10 @@ All colors MUST be HSL.
     --accent: 45 70% 47%;
     --accent-foreground: 0 0% 100%;
 
+    --whatsapp: 142 70% 40%;
+    --whatsapp-hover: 142 70% 35%;
+    --whatsapp-foreground: 0 0% 100%;
+
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
@@ -64,6 +68,10 @@ All colors MUST be HSL.
 
     --accent: 45 70% 47%;
     --accent-foreground: 0 0% 100%;
+
+    --whatsapp: 142 70% 40%;
+    --whatsapp-hover: 142 70% 35%;
+    --whatsapp-foreground: 0 0% 100%;
 
     --destructive: 0 62% 30%;
     --destructive-foreground: 0 0% 100%;

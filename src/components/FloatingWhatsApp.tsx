@@ -10,14 +10,19 @@ const FloatingWhatsApp = () => {
   };
 
   return (
-    <Button
-      onClick={handleClick}
-      size="lg"
-      className="fixed bottom-6 right-6 z-50 rounded-full w-16 h-16 shadow-2xl bg-accent hover:bg-accent/90 text-white hover:scale-110 transition-all duration-300 animate-pulse"
-      aria-label="Contato via WhatsApp"
-    >
-      <MessageCircle className="h-7 w-7" />
-    </Button>
+    <div className="fixed bottom-6 right-6 z-50">
+      {/* Pulsing glow effect */}
+      <div className="absolute inset-0 rounded-full bg-[hsl(var(--whatsapp))] opacity-40 animate-ping" />
+      
+      <Button
+        onClick={handleClick}
+        size="lg"
+        className="relative rounded-full w-16 h-16 shadow-2xl bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white hover:scale-110 transition-all duration-300"
+        aria-label="Contato via WhatsApp"
+      >
+        <MessageCircle className="h-7 w-7 fill-white" />
+      </Button>
+    </div>
   );
 };
 

@@ -43,9 +43,9 @@ const Urgency = () => {
             <Button 
               size="lg"
               onClick={handleWhatsAppClick}
-              className="bg-destructive hover:bg-destructive/90 text-white font-semibold px-8 py-6 animate-pulse-glow"
+              className="bg-[hsl(var(--whatsapp))] hover:bg-[hsl(var(--whatsapp-hover))] text-white font-semibold px-8 py-6 shadow-lg hover:shadow-2xl transition-all hover:scale-105 animate-pulse"
             >
-              <MessageCircle className="mr-2 h-5 w-5" />
+              <MessageCircle className="mr-2 h-5 w-5 fill-white" />
               Atendimento Urgente via WhatsApp
             </Button>
           </div>
